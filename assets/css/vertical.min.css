@@ -163,7 +163,7 @@ a:focus {
   font-size: 16px;
   font-weight: 600;
   left: 60px;
-  margin: 0 auto !important;
+  margin-top:10px;
   opacity: 1;
   position: absolute;
   text-transform: uppercase;
