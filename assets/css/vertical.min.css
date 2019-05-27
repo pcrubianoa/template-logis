@@ -2950,16 +2950,16 @@ body[themebg-pattern="pattern9"]{
 /* ########### Theme4 Color Combation CSS Style Start Here ##################### */
 .scoop .scoop-header[header-theme="theme4"] {
 	background:#354052;
-	color:#8493ad;
+	color:#FFF;
 }
 .scoop .scoop-header[header-theme="theme4"] .sidebar_toggle a {
   background: transparent ;
-  color: #8493ad;
+  color: #FFF;
   border-color: #8493ad;
 }
 .scoop .scoop-header[header-theme="theme4"] .scoop-right-header .scoop-rl-header ul > li > a, 
 .scoop .scoop-header[header-theme="theme4"] .scoop-right-header .scoop-rr-header ul > li > a {
-  color: #8493ad;
+  color: #FFF;
 }
 .scoop .scoop-header.nocollapsed .scoop-left-header[lheader-theme="theme4"]{
   background: #2780E3 ;
@@ -3005,59 +3005,59 @@ body[themebg-pattern="pattern9"]{
   color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  >  li.active > a {
-	background: #3f4c61 ;
-	color: #FFF;
+	background: #ddd ;
+	color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.active > a:before {
-  border-left-color:#FFF;
+  border-left-color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.active > a {
-  border-bottom-color: #485468;
+  border-bottom-color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li > a {
-	border-bottom-color: #485468;
+	border-bottom-color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  li.scoop-hasmenu .scoop-submenu{
-  background: #3e495b ;
+  background: #FFF ;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  li.scoop-hasmenu .scoop-submenu li > a {
-	border-bottom-color: #485468;
-	color:#ffffff;
+	border-bottom-color: #ddd;
+	color:#333;
 } 
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.scoop-hasmenu > a:after {
-  color: #8493ad;
+  color: #333;
 } 
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li.scoop-hasmenu  .scoop-submenu li.scoop-hasmenu > a:after {
-  color: #8493ad;
+  color: #333;
 } 
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li.scoop-hasmenu.scoop-trigger > a:after {
-  color: #FFF;
+  color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li.scoop-hasmenu.scoop-trigger .scoop-submenu li.scoop-hasmenu.scoop-trigger > a:after {
-  color: #FFF;
+  color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li:hover > a{
-	background: #3f4c61;
-    color:#FFF;
+	background: #aaa;
+    color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li.active:hover > a{
-	background: #3f4c61;
-    color:#FFF;
+	background: #aaa;
+    color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  .scoop-hasmenu .scoop-submenu li:hover > a{
-	background: #3f4c61;
-    color:#FFF;
+	background: #ddd;
+    color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"]  .scoop-item  > li:hover > a:before{
 	 border-left-color:#FFF;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.scoop-hasmenu:hover > a:after {
-  color: #FFF;
+  color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.scoop-trigger > a {
-    background: #3f4c61;
+    background: #ddd;
 	border-bottom-color: #485468;
-	color:#FFF;
+	color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  .scoop-hasmenu .scoop-submenu li:hover > a:before {
    border-left-color:#FFF;
@@ -3066,26 +3066,26 @@ body[themebg-pattern="pattern9"]{
     background: #3f4c61;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  > li.scoop-hasmenu  .scoop-submenu li.scoop-hasmenu:hover > a:after {
-  color: #FFF;
+  color: #333;
 } 
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item  .scoop-hasmenu .scoop-submenu li.active > a {
-	color:#FFF;
-	background: #3f4c61;
+	color:#333;
+	background: #ddd;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item > li.scoop-hasmenu.scoop-trigger.active > a:after {
-  color:#FFF;
+  color:#333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item .scoop-hasmenu .scoop-submenu li > a .scoop-mtext:before  {
 	border-bottom-color: #8493ad;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item .scoop-hasmenu .scoop-submenu li.active > a .scoop-mtext:before  {
-	border-bottom-color: #FFF;
+	border-bottom-color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item .scoop-hasmenu .scoop-submenu li > a .scoop-mtext:after {
 	border-left-color: #8493ad;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-item .scoop-hasmenu .scoop-submenu li.active > a .scoop-mtext:after {
-	border-left-color: #FFF;
+	border-left-color: #333;
 }
 .scoop .scoop-navbar[navbar-theme="theme4"] .scoop-navigatio-lavel {
   color: #8493ad;
@@ -3098,7 +3098,7 @@ body[themebg-pattern="pattern9"]{
   border-left-color: transparent;
 }
 .scoop[theme-layout="vertical"][vertical-nav-type="ex-popover"] .scoop-navbar[navbar-theme="theme4"] .scoop-item li.scoop-trigger > a > .scoop-mcaret{
-	border-right-color: #354052 !important;
+	border-right-color: #ddd !important;
 }
 .scoop[theme-layout="vertical"][vertical-nav-type="ex-popover"] .scoop-navbar[navbar-theme="theme4"]  .scoop-item > .scoop-hasmenu.scoop-trigger > .scoop-submenu {
   border-left-color: transparent;
