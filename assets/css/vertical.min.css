@@ -5313,3 +5313,14 @@ position: static;
 .dropdown-toggle::after {
   display:none;
 }
+
+.search-icon {
+
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.search-icon:hover{
+  background-color: #ddd;
+  color: #333;
+}
