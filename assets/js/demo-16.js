@@ -18,7 +18,7 @@ $( document ).ready(function() {
 		ItemBorderStyle: 'solid',
 		SubItemBorder: false,
 		DropDownIconStyle: 'style1', // Value should be style1,style2,style3
-		FixedNavbarPosition: true,
+		FixedNavbarPosition: false,
 		FixedHeaderPosition: true,
 		collapseVerticalLeftHeader: true,
 		VerticalSubMenuItemIconStyle: 'style6',  // value should be style1,style2,style3,style4,style5,style6
