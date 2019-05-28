@@ -768,7 +768,7 @@
 												<div class="h1 text-muted text-right">
 													<i class="icon-note"></i>
 												</div>
-												<div class="text-value"><h4>10.300</h4></div>
+												<div class="text-value"><h2><strong>10.300</strong></h2></div>
 												<small class="text-muted text-uppercase font-weight-bold">Registros</small>																				
 												<p class="text-muted text-uppercase font-weight-bold">Documentos</p>
 											</div>
@@ -780,7 +780,7 @@
 												<div class="h1 text-muted text-right">
 													<i class="icon-shield"></i>
 												</div>
-												<div class="text-value"><h4>700</h4></div>
+												<div class="text-value"><h2><strong>700</strong></h2></div>
 												<small class="text-muted text-uppercase font-weight-bold">Stock Bajo</small>																				
 												<p class="text-muted text-uppercase font-weight-bold">Productos y Servicios</p>
 											</div>
@@ -792,7 +792,7 @@
 												<div class="h1 text-muted text-right">
 													<i class="icon-wallet"></i>
 												</div>
-												<div class="text-value"><h4>300</h4></div>
+												<div class="text-value"><h2><strong>300</strong></h2></div>
 												<small class="text-muted text-uppercase font-weight-bold">Stock Bajo</small>																				
 												<p class="text-muted text-uppercase font-weight-bold">Productos y Servicios</p>
 											</div>
@@ -804,17 +804,73 @@
 												<div class="h1 text-muted text-right">
 													<i class="icon-basket"></i>
 												</div>
-												<div class="text-value"><h4>3.500</h4></div>
+												<div class="text-value"><h2><strong>3.500</strong></h2></div>
 												<small class="text-muted text-uppercase font-weight-bold">Stock Bajo</small>																				
 												<p class="text-muted text-uppercase font-weight-bold">Productos y Servicios</p>
 											</div>
 										</div>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col-md-3 mb-2">
+										<div class="card">
+											<div class="card-body p-0 d-flex align-items-center">
+												<i class="icon-note p-4 fa-2x mr-3"></i>
+												<div>
+													<h3 class="p-0 m-0"><strong>10.300</strong></h3>
+													<div class="p-0 m-0">Registros</div>
+													<div class="text-muted text-uppercase font-weight-bold">Documentos</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 mb-2">
+										<div class="card">
+											<div class="card-body p-0 d-flex align-items-center">
+												<i class="icon-shield p-4 fa-2x mr-3"></i>
+												<div>
+													<h3 class="p-0 m-0"><strong>700</strong></h3>
+													<div class="p-0 m-0">Stock Bajo</div>
+													<div class="text-muted text-uppercase font-weight-bold">Productos y Servicios</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 mb-2">
+										<div class="card">
+											<div class="card-body p-0 d-flex align-items-center">
+												<i class="icon-wallet p-4 fa-2x mr-3"></i>
+												<div>
+													<h3 class="p-0 m-0"><strong>10.300</strong></h3>
+													<div class="p-0 m-0">Registros</div>
+													<div class="text-muted text-uppercase font-weight-bold">Documentos</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 mb-2">
+										<div class="card">
+											<div class="card-body p-0 d-flex align-items-center">
+												<i class="icon-basket p-4 fa-2x mr-3"></i>
+												<div>
+													<h3 class="p-0 m-0"><strong>10.300</strong></h3>
+													<div class="p-0 m-0">Registros</div>
+													<div class="text-muted text-uppercase font-weight-bold">Documentos</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3 mb-2">
+											<div class="card h-100 p-2">
+										<canvas id="myChart" width="400" height="400"></canvas>
+											</div>
+									</div>
+								</div>
 							</div>
-
-								</div>
-								</div>
+							</div>
+							</div>
 							<!-- main Content Ends-->
 
 							</div>
@@ -824,6 +880,45 @@
 			</div>
 		</div>
 	</body>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+	<script>
+			var ctx = document.getElementById('myChart').getContext('2d');
+			var myChart = new Chart(ctx, {
+					type: 'line',
+					data: {
+							labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio'],
+							datasets: [{
+									label: 'Productos Vendidos',
+									data: [5, 10, 23, 38, 45, 53],
+									backgroundColor: [
+											'rgba(38, 126, 227, 0.2)',
+											'rgba(38, 126, 227, 0.2)',
+											'rgba(38, 126, 227, 0.2)',
+											'rgba(38, 126, 227, 0.2)',
+											'rgba(38, 126, 227, 0.2)',
+											'rgba(38, 126, 227, 0.2)'
 
-</html>
+									],
+									borderColor: [
+											'rgb(39, 128, 227)',
+											'rgb(39, 128, 227)',
+											'rgb(39, 128, 227)',
+											'rgb(39, 128, 227)',
+											'rgb(39, 128, 227)',
+											'rgb(39, 128, 227)'
+									],
+									borderWidth: 1
+							}]
+					},
+					options: {
+							scales: {
+									yAxes: [{
+											ticks: {
+													beginAtZero: true
+											}
+									}]
+							}
+					}
+			});
+			</script>
 </html>
